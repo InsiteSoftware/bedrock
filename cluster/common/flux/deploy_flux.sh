@@ -20,7 +20,7 @@ fi
 fetch_helm () {
   # grab helm.
   # set HELM_TAG to a specific version, if needed
-  HELM_TAG=""
+  # HELM_TAG=""
   if [ -z "$HELM_TAG" ]; then
     if [ "$IS_MACOS" -eq "1" ]; then
       # use sed compatible with MacOS
